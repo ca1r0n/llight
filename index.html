@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#fff">
+  <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="#">
+        <img class="header__logo" src="./img/logo.png" alt="logo">
+      </a>
+      <nav class="header__nav">
+        <div class="header__items">
+          <a class="header__link  header__link--active" href="#">О компании</a>
+        </div>
+        <div class="header__items">
+          <a class="header__link" href="#">Услуги</a>
+        </div>
+        <div class="header__items">
+          <a class="header__link" href="#">Проекты</a>
+        </div>
+        <div class="header__items">
+          <a class="header__link" href="#">Доставка и оплата</a>
+        </div>
+        <div class="header__items">
+          <a class="header__link" href="#">Контакты</a>
+        </div>
+        <div class="header__items">
+          <a class="header__link header__link--yellow" href="#">
+            <p class="header__link-text">Подборка</p>
+            <img class="header__link-img" src="./img/icon1.svg" alt="icon">
+          </a>
+        </div>
+      </nav>
+      <div class="header__contact">
+        <a class="header__left" href="mailto: #">
+          <img class="header__left-img" src="./img/mail.svg" alt="mail">
+          <p class="header__left-text">info@i-lights.ru</p>
+        </a>
+        <a class="header__right" href="tel: +7 (495)  233 55 57">
+          <img class="header__right-img" src="./img/phone.svg" alt="phone">
+          <p class="header__right-text">+7 (495) 233 55 57</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <div class="intro__left">
+                <div class="intro__content">
+                    <h1 class="intro__title"><span>I-LIGHTS</span> - Эффективные решения</h1>
+                    <p class="intro__description">Компания I-lights это современная производственно-проектная
+                        организация с многолентим опытом работы в сфере разработки </p>
+                    <a class="intro__btn btn__yellow" href="#">Подробнее</a>
+                </div>
+                <div class="intro__slider-nav">
+                    <div class="intro__slider-arrows intro__slider-arrows--left">
+                        <svg class="intro__slider-arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.55868e-08 5.5L5.5 1.78873e-08L7 1.5L3 5.5L7 9.5L5.4 11L6.55868e-08 5.5Z"
+                                fill="#535353" />
+                        </svg>
+                    </div>
+                    <div class="intro__slider-arrows intro__slider-arrows--right">
+                        <svg class="intro__slider-arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.55868e-08 5.5L5.5 1.78873e-08L7 1.5L3 5.5L7 9.5L5.4 11L6.55868e-08 5.5Z"
+                                fill="#535353" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="intro__right">
+                <div class="intro__slider">
+                    <ul class="intro__slider-list">
+                        <li class="intro__slider-items">
+                        </li>
+                    </ul>
+                    <div class="intro__slider-dots">
+                        <div class="intro__slider-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="catalog">
+    <div class="container">
+        <div class="catalog__inner">
+            <h1 class="catalog__title text__title">Каталог</h1>
+            <div class="catalog__content">
+                <div class="catalog__menu">
+                    <div class="catalog__items catalog__items--active" id='catalog__item-1'>
+                        <h1 class="catalog__name">Трековые светильники</h1>
+                        <div class="catalog__dropdown">
+                            <p class="catalog__description">Органично вписываются в интерьеры в стиле хай-тек, лофт </p>
+                            <a class="btn__blue catalog__btn" href="#">Перейти в каталог</a>
+                        </div>
+                    </div>
+                    <div class="catalog__items" id='catalog__item-2'>
+                        <h1 class="catalog__name">Встраиваемые светильники</h1>
+                        <div class="catalog__dropdown">
+                            <p class="catalog__description">Органично вписываются в интерьеры в стиле хай-тек, лофт </p>
+                            <a class="btn__blue catalog__btn" href="#">Перейти в каталог</a>
+                        </div>
+                    </div>
+                    <div class="catalog__items" id='catalog__item-3'>
+                        <h1 class="catalog__name">Фигурные светильники</h1>
+                        <div class="catalog__dropdown">
+                            <p class="catalog__description">Органично вписываются в интерьеры в стиле хай-тек, лофт </p>
+                            <a class="btn__blue catalog__btn" href="#">Перейти в каталог</a>
+                        </div>
+                    </div>
+                    <div class="catalog__items" id='catalog__item-4'>
+                        <h1 class="catalog__name">Светильники Армстронг</h1>
+                        <div class="catalog__dropdown">
+                            <p class="catalog__description">Органично вписываются в интерьеры в стиле хай-тек, лофт </p>
+                            <a class="btn__blue catalog__btn" href="#">Перейти в каталог</a>
+                        </div>
+                    </div>
+                    <div class="catalog__items" id='catalog__item-5'>
+                        <h1 class="catalog__name">Светильники Армстронг
+                            с равномерной засветкой</h1>
+                        <div class="catalog__dropdown">
+                            <p class="catalog__description">Органично вписываются в интерьеры в стиле хай-тек, лофт </p>
+                            <a class="btn__blue catalog__btn" href="#">Перейти в каталог</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__catalog">
+                    <ul class="catalog__list catalog__list--active" id='catalog__catalog-1'>
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-1.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">1</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-3.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">1</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-2.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">1</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-4.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">1</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="catalog__list" id='catalog__catalog-2'>
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-1.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">2</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-3.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">2</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-2.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">2</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-4.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">2</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="catalog__list" id='catalog__catalog-3'>
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-1.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">3</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-3.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">3</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-2.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">3</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-4.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">3</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="catalog__list" id='catalog__catalog-4'>
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-1.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">4</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-3.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">4</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-2.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">4</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-4.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">4</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="catalog__list" id='catalog__catalog-5'>
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-1.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">5</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-3.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">5</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                        <li class="catalog__list-items">
+                            <img src="./img/catalog1-2.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">5</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+
+                        <li class="catalog__list-items catalog__list-items--big">
+                            <img src="./img/catalog1-4.png" alt="img" class="catalog__list-img">
+                            <a class="catalog__list-btn" href="#">
+                                <p class="catalog__list-text">5</p>
+                                <p class="catalog__list-icon">+</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="services">
+    <div class="container">
+        <div class="services__inner">
+            <h1 class="services__title text__title">Услуги</h1>
+            <ul class="services__list">
+                <li class="services__items">
+                    <div class="services__left">
+                        <img src="./img/icon-service-1.svg" alt="icon" class="services__img">
+                    </div>
+                    <div class="services__right">
+                        <div class="services__top">
+                            <h1 class="services__name">Изготовление счетильников для торгового и общественного освещени
+                            </h1>
+                            <h1 class="services__plus">+</h1>
+                        </div>
+                        <div class="services__accordion">
+                            <p class="services__text">Мы ценим Ваше время, поэтому, коротко о главном.
+                                Наша компания была образована с целью предложить Российскому рынку профессиональные
+                                светотехнические решения для освещения магазинов, офисов и объектов
+                                общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+                                оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же
+                                являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов,
+                                сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные
+                                центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные
+                                поселки и частные заказчики.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__items">
+                    <div class="services__left">
+                        <img src="./img/icon-service-2.svg" alt="icon" class="services__img">
+                    </div>
+                    <div class="services__right">
+                        <div class="services__top">
+                            <h1 class="services__name">Поставки дизайнерского света от ведущих европейских
+                                производителей
+                            </h1>
+                            <h1 class="services__plus">+</h1>
+                        </div>
+                        <div class="services__accordion">
+                            <p class="services__text">Мы ценим Ваше время, поэтому, коротко о главном.
+                                Наша компания была образована с целью предложить Российскому рынку профессиональные
+                                светотехнические решения для освещения магазинов, офисов и объектов
+                                общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+                                оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же
+                                являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов,
+                                сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные
+                                центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные
+                                поселки и частные заказчики.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__items">
+                    <div class="services__left">
+                        <img src="./img/icon-service-3.svg" alt="icon" class="services__img">
+                    </div>
+                    <div class="services__right">
+                        <div class="services__top">
+                            <h1 class="services__name">Проектирование, светотехнические расчеты и разработка концепции
+                                освещения
+                            </h1>
+                            <h1 class="services__plus">+</h1>
+                        </div>
+                        <div class="services__accordion">
+                            <p class="services__text">Мы ценим Ваше время, поэтому, коротко о главном.
+                                Наша компания была образована с целью предложить Российскому рынку профессиональные
+                                светотехнические решения для освещения магазинов, офисов и объектов
+                                общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+                                оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же
+                                являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов,
+                                сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные
+                                центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные
+                                поселки и частные заказчики.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__items">
+                    <div class="services__left">
+                        <img src="./img/icon-service-4.svg" alt="icon" class="services__img">
+                    </div>
+                    <div class="services__right">
+                        <div class="services__top">
+                            <h1 class="services__name">Модернизация светильников
+                            </h1>
+                            <h1 class="services__plus">+</h1>
+                        </div>
+                        <div class="services__accordion">
+                            <p class="services__text">Мы ценим Ваше время, поэтому, коротко о главном.
+                                Наша компания была образована с целью предложить Российскому рынку профессиональные
+                                светотехнические решения для освещения магазинов, офисов и объектов
+                                общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+                                оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же
+                                являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов,
+                                сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные
+                                центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные
+                                поселки и частные заказчики.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__items">
+                    <div class="services__left">
+                        <img src="./img/icon-service-5.svg" alt="icon" class="services__img">
+                    </div>
+                    <div class="services__right">
+                        <div class="services__top">
+                            <h1 class="services__name">Ремонт светодиодных светильников
+                            </h1>
+                            <h1 class="services__plus">+</h1>
+                        </div>
+                        <div class="services__accordion">
+                            <p class="services__text">Мы ценим Ваше время, поэтому, коротко о главном.
+                                Наша компания была образована с целью предложить Российскому рынку профессиональные
+                                светотехнические решения для освещения магазинов, офисов и объектов
+                                общественно-развлекательного назначения. Сегодня мы поставляем осветительное
+                                оборудование различных ценовых категорий из стран Юго-Восточной Азии и Европы, а так же
+                                являемся дистрибьюторами лучших Российских производителей. А среди наших клиентов,
+                                сетевые и частные магазины одежды и обуви, продуктовые магазины, торговые и офисные
+                                центры, представители индустрии красоты и здоровья, кафе, рестораны, отели, коттеджные
+                                поселки и частные заказчики.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <section class="new">
+    <div class="container">
+        <div class="new__inner">
+            <h1 class="new__title text__title">Новинки</h1>
+        </div>
+        <ul class="new__list">
+            <li class="new__items">
+                <div class="new__day">
+                    <p class="new__day-text">Вт</p>
+                </div>
+                <img class="new__img" src="./img/new1.png" alt="img">
+                <h1 class="new__name">Дизайнерский светильник изготавливаемый по проекту</h1>
+                <ul class="new__ul">
+                    <li class="new__li">Длинна до 3 метров. </li>
+                    <li class="new__li">Углы поворота между секторами по проекту.</li>
+                    <li class="new__li">Мощность рассчитывается индивидуально.</li>
+                </ul>
+                <div class="new__price">
+                    <p class="new__price-text">21 300</p>
+                    <svg class="new__price-img" width="13" height="14" viewBox="0 0 13 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.20473 11.0319H3.25936V12.7717C3.25936 12.8564 3.28678 12.9257 3.34194 12.9799C3.39695 13.0344 3.46728 13.0616 3.55295 13.0616H5.08465C5.16414 13.0616 5.23293 13.0344 5.29103 12.9799C5.34913 12.9257 5.37809 12.8564 5.37809 12.7717V11.0319H10.0101C10.0956 11.0319 10.1659 11.005 10.2211 10.9504C10.2763 10.896 10.3037 10.8266 10.3037 10.742V9.58216C10.3037 9.498 10.2763 9.4282 10.2211 9.37404C10.1661 9.31952 10.0956 9.29226 10.0101 9.29226H5.37794V8.22305H8.49652C9.71943 8.22305 10.7175 7.85495 11.4913 7.11771C12.2647 6.38123 12.6516 5.42989 12.6516 4.26362C12.6516 3.09813 12.2647 2.14677 11.4913 1.40954C10.7177 0.673048 9.71941 0.304199 8.49652 0.304199H3.5528C3.46711 0.304199 3.39693 0.331433 3.34179 0.385626C3.28678 0.44012 3.25921 0.509893 3.25921 0.594071V6.29338H1.20473C1.11906 6.29338 1.04885 6.32201 0.993715 6.37938C0.938728 6.43678 0.911133 6.50472 0.911133 6.58323V7.93313C0.911133 8.01778 0.938551 8.08713 0.993715 8.1416C1.04888 8.19612 1.1189 8.22303 1.20473 8.22303H3.25936V9.29223H1.20473C1.11906 9.29223 1.04885 9.31949 0.993715 9.37401C0.938728 9.42818 0.911133 9.49783 0.911133 9.58213V10.7419C0.911133 10.8266 0.938551 10.8959 0.993715 10.9504C1.04885 11.005 1.11903 11.0319 1.20473 11.0319ZM5.37794 2.23432H8.31308C8.96118 2.23432 9.48391 2.42151 9.88151 2.79601C10.2789 3.17053 10.4777 3.65997 10.4777 4.26377C10.4777 4.86788 10.2789 5.35747 9.88151 5.73154C9.48391 6.10637 8.96115 6.29355 8.31308 6.29355H5.37794V2.23432Z"
+                            fill="#535353" />
+                    </svg>
+                </div>
+                <a class="new__bot" href="#">
+                    <btn class="btn__blue new__btn">
+                        <p class="new__btn-text">Подробнее</p>
+                    </btn>
+                    <div class="new__btn-block">
+                        <p class="new__btn-plus">+</p>
+                    </div>
+                </a>
+            </li>
+            <li class="new__items">
+                <div class="new__day">
+                    <p class="new__day-text">Вт</p>
+                </div>
+                <img class="new__img" src="./img/new2.png" alt="img">
+                <h1 class="new__name">Дизайнерский светильник изготавливаемый по проекту</h1>
+                <ul class="new__ul">
+                    <li class="new__li">Длинна до 3 метров. </li>
+                    <li class="new__li">Углы поворота между секторами по проекту.</li>
+                    <li class="new__li">Мощность рассчитывается индивидуально.</li>
+                </ul>
+                <div class="new__price">
+                    <p class="new__price-text">21 300</p>
+                    <svg class="new__price-img" width="13" height="14" viewBox="0 0 13 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.20473 11.0319H3.25936V12.7717C3.25936 12.8564 3.28678 12.9257 3.34194 12.9799C3.39695 13.0344 3.46728 13.0616 3.55295 13.0616H5.08465C5.16414 13.0616 5.23293 13.0344 5.29103 12.9799C5.34913 12.9257 5.37809 12.8564 5.37809 12.7717V11.0319H10.0101C10.0956 11.0319 10.1659 11.005 10.2211 10.9504C10.2763 10.896 10.3037 10.8266 10.3037 10.742V9.58216C10.3037 9.498 10.2763 9.4282 10.2211 9.37404C10.1661 9.31952 10.0956 9.29226 10.0101 9.29226H5.37794V8.22305H8.49652C9.71943 8.22305 10.7175 7.85495 11.4913 7.11771C12.2647 6.38123 12.6516 5.42989 12.6516 4.26362C12.6516 3.09813 12.2647 2.14677 11.4913 1.40954C10.7177 0.673048 9.71941 0.304199 8.49652 0.304199H3.5528C3.46711 0.304199 3.39693 0.331433 3.34179 0.385626C3.28678 0.44012 3.25921 0.509893 3.25921 0.594071V6.29338H1.20473C1.11906 6.29338 1.04885 6.32201 0.993715 6.37938C0.938728 6.43678 0.911133 6.50472 0.911133 6.58323V7.93313C0.911133 8.01778 0.938551 8.08713 0.993715 8.1416C1.04888 8.19612 1.1189 8.22303 1.20473 8.22303H3.25936V9.29223H1.20473C1.11906 9.29223 1.04885 9.31949 0.993715 9.37401C0.938728 9.42818 0.911133 9.49783 0.911133 9.58213V10.7419C0.911133 10.8266 0.938551 10.8959 0.993715 10.9504C1.04885 11.005 1.11903 11.0319 1.20473 11.0319ZM5.37794 2.23432H8.31308C8.96118 2.23432 9.48391 2.42151 9.88151 2.79601C10.2789 3.17053 10.4777 3.65997 10.4777 4.26377C10.4777 4.86788 10.2789 5.35747 9.88151 5.73154C9.48391 6.10637 8.96115 6.29355 8.31308 6.29355H5.37794V2.23432Z"
+                            fill="#535353" />
+                    </svg>
+                </div>
+                <a class="new__bot" href="#">
+                    <btn class="btn__blue new__btn">
+                        <p class="new__btn-text">Подробнее</p>
+                    </btn>
+                    <div class="new__btn-block">
+                        <p class="new__btn-plus">+</p>
+                    </div>
+                </a>
+            </li>
+            <li class="new__items">
+                <div class="new__day">
+                    <p class="new__day-text">Вт</p>
+                </div>
+                <img class="new__img" src="./img/new1.png" alt="img">
+                <h1 class="new__name">Дизайнерский светильник изготавливаемый по проекту</h1>
+                <ul class="new__ul">
+                    <li class="new__li">Длинна до 3 метров. </li>
+                    <li class="new__li">Углы поворота между секторами по проекту.</li>
+                    <li class="new__li">Мощность рассчитывается индивидуально.</li>
+                </ul>
+                <div class="new__price">
+                    <p class="new__price-text">21 300</p>
+                    <svg class="new__price-img" width="13" height="14" viewBox="0 0 13 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.20473 11.0319H3.25936V12.7717C3.25936 12.8564 3.28678 12.9257 3.34194 12.9799C3.39695 13.0344 3.46728 13.0616 3.55295 13.0616H5.08465C5.16414 13.0616 5.23293 13.0344 5.29103 12.9799C5.34913 12.9257 5.37809 12.8564 5.37809 12.7717V11.0319H10.0101C10.0956 11.0319 10.1659 11.005 10.2211 10.9504C10.2763 10.896 10.3037 10.8266 10.3037 10.742V9.58216C10.3037 9.498 10.2763 9.4282 10.2211 9.37404C10.1661 9.31952 10.0956 9.29226 10.0101 9.29226H5.37794V8.22305H8.49652C9.71943 8.22305 10.7175 7.85495 11.4913 7.11771C12.2647 6.38123 12.6516 5.42989 12.6516 4.26362C12.6516 3.09813 12.2647 2.14677 11.4913 1.40954C10.7177 0.673048 9.71941 0.304199 8.49652 0.304199H3.5528C3.46711 0.304199 3.39693 0.331433 3.34179 0.385626C3.28678 0.44012 3.25921 0.509893 3.25921 0.594071V6.29338H1.20473C1.11906 6.29338 1.04885 6.32201 0.993715 6.37938C0.938728 6.43678 0.911133 6.50472 0.911133 6.58323V7.93313C0.911133 8.01778 0.938551 8.08713 0.993715 8.1416C1.04888 8.19612 1.1189 8.22303 1.20473 8.22303H3.25936V9.29223H1.20473C1.11906 9.29223 1.04885 9.31949 0.993715 9.37401C0.938728 9.42818 0.911133 9.49783 0.911133 9.58213V10.7419C0.911133 10.8266 0.938551 10.8959 0.993715 10.9504C1.04885 11.005 1.11903 11.0319 1.20473 11.0319ZM5.37794 2.23432H8.31308C8.96118 2.23432 9.48391 2.42151 9.88151 2.79601C10.2789 3.17053 10.4777 3.65997 10.4777 4.26377C10.4777 4.86788 10.2789 5.35747 9.88151 5.73154C9.48391 6.10637 8.96115 6.29355 8.31308 6.29355H5.37794V2.23432Z"
+                            fill="#535353" />
+                    </svg>
+                </div>
+                <a class="new__bot" href="#">
+                    <btn class="btn__blue new__btn">
+                        <p class="new__btn-text">Подробнее</p>
+                    </btn>
+                    <div class="new__btn-block">
+                        <p class="new__btn-plus">+</p>
+                    </div>
+                </a>
+            </li>
+            <li class="new__items">
+                <div class="new__day">
+                    <p class="new__day-text">Вт</p>
+                </div>
+                <img class="new__img" src="./img/new1.png" alt="img">
+                <h1 class="new__name">Дизайнерский светильник изготавливаемый по проекту</h1>
+                <ul class="new__ul">
+                    <li class="new__li">Длинна до 3 метров. </li>
+                    <li class="new__li">Углы поворота между секторами по проекту.</li>
+                    <li class="new__li">Мощность рассчитывается индивидуально.</li>
+                </ul>
+                <div class="new__price">
+                    <p class="new__price-text">21 300</p>
+                    <svg class="new__price-img" width="13" height="14" viewBox="0 0 13 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.20473 11.0319H3.25936V12.7717C3.25936 12.8564 3.28678 12.9257 3.34194 12.9799C3.39695 13.0344 3.46728 13.0616 3.55295 13.0616H5.08465C5.16414 13.0616 5.23293 13.0344 5.29103 12.9799C5.34913 12.9257 5.37809 12.8564 5.37809 12.7717V11.0319H10.0101C10.0956 11.0319 10.1659 11.005 10.2211 10.9504C10.2763 10.896 10.3037 10.8266 10.3037 10.742V9.58216C10.3037 9.498 10.2763 9.4282 10.2211 9.37404C10.1661 9.31952 10.0956 9.29226 10.0101 9.29226H5.37794V8.22305H8.49652C9.71943 8.22305 10.7175 7.85495 11.4913 7.11771C12.2647 6.38123 12.6516 5.42989 12.6516 4.26362C12.6516 3.09813 12.2647 2.14677 11.4913 1.40954C10.7177 0.673048 9.71941 0.304199 8.49652 0.304199H3.5528C3.46711 0.304199 3.39693 0.331433 3.34179 0.385626C3.28678 0.44012 3.25921 0.509893 3.25921 0.594071V6.29338H1.20473C1.11906 6.29338 1.04885 6.32201 0.993715 6.37938C0.938728 6.43678 0.911133 6.50472 0.911133 6.58323V7.93313C0.911133 8.01778 0.938551 8.08713 0.993715 8.1416C1.04888 8.19612 1.1189 8.22303 1.20473 8.22303H3.25936V9.29223H1.20473C1.11906 9.29223 1.04885 9.31949 0.993715 9.37401C0.938728 9.42818 0.911133 9.49783 0.911133 9.58213V10.7419C0.911133 10.8266 0.938551 10.8959 0.993715 10.9504C1.04885 11.005 1.11903 11.0319 1.20473 11.0319ZM5.37794 2.23432H8.31308C8.96118 2.23432 9.48391 2.42151 9.88151 2.79601C10.2789 3.17053 10.4777 3.65997 10.4777 4.26377C10.4777 4.86788 10.2789 5.35747 9.88151 5.73154C9.48391 6.10637 8.96115 6.29355 8.31308 6.29355H5.37794V2.23432Z"
+                            fill="#535353" />
+                    </svg>
+                </div>
+                <a class="new__bot" href="#">
+                    <btn class="btn__blue new__btn">
+                        <p class="new__btn-text">Подробнее</p>
+                    </btn>
+                    <div class="new__btn-block">
+                        <p class="new__btn-plus">+</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <a class="btn__yellow new__bot-btn" href="#">Перейти а каталог</a>
+    </div>
+</section>
+    <section class="download">
+    <div class="container">
+        <div class="download__inner">
+            <div class="download__left">
+                <p class="download__text">Файлы для скачивания</p>
+                <img class="download__left-img" src="./img/fail.svg" alt="fail">
+            </div>
+            <ul class="download__right">
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+                <li class="download__items">
+                    <h1 class="download__name">Последние версии каталогов</h1>
+                    <div class="download__items-right">
+                        <a class="download__check" href="#">Посмотреть</a>
+                        <a class="download__download" href="#" download>
+                            <p class="download__download-text">Скачать</p>
+                            <img class="download__download-img" src="./img/download.svg" alt="download">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    <section class="form">
+    <div class="container">
+        <div class="form__inner">
+            <div class="form__left">
+                <h1 class="form__title">Остались вопросы и нужна консультация?</h1>
+                <img src="./img/question.svg" alt="question" class="form__img">
+            </div>
+            <form class="form__right" action="POST">
+                <input class="form__input" id='Name' type="text" required placeholder="Ваше имя*">
+                <input class="form__input" id='Email' type="text" required placeholder="Ваш e-mail*">
+                <textarea class="form__input" name="Message " id="Message" placeholder="Сообщение "></textarea>
+                <button class="form__btn btn__yellow">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__items">
+        <img class="footer__logo" src="./img/logo1.svg" alt="logo">
+        <p class="footer__name-comp">© Technolight 2015-2021</p>
+      </div>
+      <div class="footer__items">
+        <h1 class="footer__name">Каталог товаров</h1>
+        <div class="footer__list">
+          <a class="footer__link" href="#">Трековые светильники</a>
+          <a class="footer__link" href="#">Встраиваемые светильники</a>
+          <a class="footer__link" href="#">Профильные светильники</a>
+          <a class="footer__link" href="#">Фигурные светильники</a>
+          <a class="footer__link" href="#">Светильники Армстронг</a>
+          <a class="footer__link" href="#">Армстронг с равномерной засветкой</a>
+          <a class="footer__link" href="#">Произовдители</a>
+        </div>
+      </div>
+      <div class="footer__items">
+        <a class="footer__link footer__link--big" href="#">Как заказать</a>
+        <a class="footer__link footer__link--big" href="#">Оплата</a>
+        <a class="footer__link footer__link--big" href="#">Доставка</a>
+        <a class="footer__link footer__link--big" href="#">Реквизиты компании</a>
+        <a class="footer__link footer__link--big" href="#">Правовая информация</a>
+        <a class="footer__link footer__link--big" href="#">FAQ</a>
+      </div>
+      <div class="footer__items">
+        <h1 class="footer__name">Контакты</h1>
+        <a class="footer__items-contact" href="#">
+          <img class="footer__img" src="./img/pin.svg" alt="pin">
+          <p class="footer__text">место магазина</p>
+        </a>
+        <a class="footer__items-contact" href="tel: +7 (495) 233 55 57">
+          <img class="footer__img" src="./img/phone.svg" alt="pin">
+          <p class="footer__text">+7 (495) 233 55 57</p>
+        </a>
+        <a class="footer__items-contact" href="mailto: info@i-lights.ru">
+          <img class="footer__img" src="./img/mail.svg" alt="pin">
+          <p class="footer__text">info@i-lights.ru</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
