@@ -14,7 +14,7 @@ var dot = document.querySelector('.intro__slider-dot');
 var prevArrow = document.querySelector('.intro__slider-arrows--left');
 var nextArrow = document.querySelector('.intro__slider-arrows--right');
 var activeItem = 0;
-var images = ['../img/intro1.png', '../img/intro2.png', '../img/intro3.png'];
+var images = ['./img/intro1.png', './img/intro2.png', './img/intro3.png'];
 prevArrow.addEventListener('click', function (event) {
   if (activeItem - 1 == -1) {
     activeItem = images.length;
