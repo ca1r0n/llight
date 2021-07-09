@@ -102,10 +102,24 @@ try {
 
   for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
     _loop2();
-  }
+  } //burger
+  // -------------------------------------------
+
 } catch (err) {
   _iterator2.e(err);
 } finally {
   _iterator2.f();
 }
+
+var burger = document.querySelector('.burger');
+var body = document.querySelector('.body');
+burger.addEventListener('click', function (e) {
+  if (e.target.className == 'burger') {
+    burger.classList.add('burger--active');
+    body.classList.add('body--lock');
+  } else if (e.target.className == 'burger__close') {
+    burger.classList.remove('burger--active');
+    body.classList.remove('body--lock');
+  }
+});
 //# sourceMappingURL=main.js.map
